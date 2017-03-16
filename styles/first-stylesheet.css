@@ -1,0 +1,92 @@
+  html { font-size: 16px; }
+
+  p {
+    font-family: 'Playfair Display', serif;
+    color: #595959;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+  .nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+  li {
+    float: left;
+    margin-left: 10rem
+  }
+
+  li a {
+      display: block;
+      color: #666;
+      text-align: center;
+      padding: .75rem;
+      text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #fff
+  }
+
+  .header h1 {
+    margin: 5rem 10rem 0 10rem;
+  }
+
+  .header h3 {
+    margin: .5rem 10rem 2rem 10rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+    color: #1DB4B9;
+  }
+
+  h3 {
+    font-size: 2rem;
+    color: #325687;
+  }
+
+  .article {
+    float: left;
+    margin: 0 0 5rem 10rem;
+    max-width: 63%;
+  }
+
+  .article h2 {
+    color: #325687;
+    text-align: center;
+  }
+
+  .aside {
+    float: right;
+    margin: 0 10rem 5rem 0;
+    width: 30%;
+  }
+
+  .section-gallery {
+    float: left;
+    margin: 0 0 0 10rem;
+    max-width: 50%;
+  }
+
+  .section-gallery h2 {
+    padding-top: 2rem;
+  }
+
+  footer {
+    clear: both;
+    margin: 1rem 0 1rem 0;
+    padding: .15rem;
+    text-align: center
+  }
